@@ -45,7 +45,7 @@ namespace Match_Game
             if (matchesFound == 8)
             {
                 timer.Stop();
-                timeTextBlock.Text = timeTextBlock.Text + " 再玩一次?";
+                timeTextBlock.Text = timeTextBlock.Text + " play again?";
             }
         }
 
@@ -56,6 +56,11 @@ namespace Match_Game
                 "🦐", "🐬", "🐤", "🦔", "🐧", "🦈", "🦑", "🐈",
                 "🦐", "🐬", "🐤", "🦔", "🐧", "🦈", "🦑", "🐈"
             };
+
+            foreach (TextBlock textBlock in mainGrid.Children.OfType<TextBlock>())
+            {
+                textBlock.Visibility = Visibility.Visible;
+            }
 
             Random rd = new Random(); // 實例化一個Random物件叫"rd"
 

@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:emoji="clr-namespace:Emoji.Wpf;assembly=Emoji.Wpf"
         xmlns:local="clr-namespace:Match_Game"
         mc:Ignorable="d"
         Title="配對動物吧！" Height="450" Width="400">
@@ -20,41 +21,41 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="0" Grid.Row="0" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="1" Grid.Row="0" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="2" Grid.Row="0" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="3" Grid.Row="0" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="0" Grid.Row="1" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="1" Grid.Row="1" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="2" Grid.Row="1" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="3" Grid.Row="1" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="0" Grid.Row="2" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="1" Grid.Row="2" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="2" Grid.Row="2" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="3" Grid.Row="2" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="0" Grid.Row="3" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="1" Grid.Row="3" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="2" Grid.Row="3" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="3" Grid.Row="3" Text="?" FontSize="36" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" />
-        <TextBlock Grid.Column="0" Grid.Row="4" Text="經過時間" FontSize="36" 
+        <emoji:TextBlock Grid.Column="0" Grid.Row="0" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="1" Grid.Row="0" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="2" Grid.Row="0" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="3" Grid.Row="0" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="0" Grid.Row="1" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="1" Grid.Row="1" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="2" Grid.Row="1" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="3" Grid.Row="1" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="0" Grid.Row="2" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="1" Grid.Row="2" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="2" Grid.Row="2" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="3" Grid.Row="2" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="0" Grid.Row="3" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="1" Grid.Row="3" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="2" Grid.Row="3" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <emoji:TextBlock Grid.Column="3" Grid.Row="3" Text="?" FontSize="36" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown" FontFamily="Segoe UI Emoji" />
+        <TextBlock Grid.Column="0" Grid.Row="4" Text="Timer" FontSize="36" 
                    HorizontalAlignment="Center" VerticalAlignment="Center" MouseDown="TimeTextBlock_MouseDown"
-                   x:Name="timeTextBlock" Grid.ColumnSpan="4" />
+                   x:Name="timeTextBlock" Grid.ColumnSpan="4" FontFamily="Segoe UI" />
 
     </Grid>
 </Window>
