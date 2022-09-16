@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TextBlock = Emoji.Wpf.TextBlock;
 
 namespace Match_Game
 {
@@ -34,7 +35,7 @@ namespace Match_Game
 
             timer.Interval = TimeSpan.FromSeconds(.1);
             timer.Tick += Timer_Tick;
-            
+
             SetUpGame();
         }
 
@@ -45,7 +46,7 @@ namespace Match_Game
             if (matchesFound == 8)
             {
                 timer.Stop();
-                timeTextBlock.Text = timeTextBlock.Text + " play again?";
+                timeTextBlock.Text += " - Play again?";
             }
         }
 
@@ -64,7 +65,8 @@ namespace Match_Game
 
             Random rd = new Random(); // 實例化一個Random物件叫"rd"
 
-            foreach (TextBlock textBlock in mainGrid.Children.OfType<TextBlock>()) //從mainGrid存取每一個TextBlock類型物件，取名叫textblock
+            //從mainGrid存取每一個TextBlock類型物件，取名叫textblock
+            foreach (TextBlock textBlock in mainGrid.Children.OfType<TextBlock>())
             {
                 if (textBlock.Name.Contains("time") == false)   // 跳過timeTextBlock
                 {
@@ -110,5 +112,6 @@ namespace Match_Game
                 SetUpGame();
             }
         }
+
     }
 }
